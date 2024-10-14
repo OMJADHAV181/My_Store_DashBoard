@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Loader.css */
+
+.loader {
+    border: 8px solid #f3f3f3; /* Light grey background */
+    border-top: 8px solid #3498db; /* Blue color for the top */
+    border-radius: 50%; /* Make it a circle */
+    width: 50px; /* Set width */
+    height: 50px; /* Set height */
+    animation: spin 1s linear infinite; /* Spin animation */
+  }
+  
+  /* Keyframes for the spin animation */
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg); /* Start at 0 degrees */
+    }
+    100% {
+      transform: rotate(360deg); /* Complete rotation at 360 degrees */
+    }
+  }
+  
